@@ -10,10 +10,10 @@ A python script to sync your google drive contents.
 * Uses OAuth2 authentication and can remember authentication
 
 ## Setup
-* Edit client_secrets_sample.json and add your Google API client id and client secret (If you don't have one, [get it here](https://code.google.com/apis/console/)).
-* Save it as client_secrets.json
+* Edit `client_secrets_sample.json` and add your Google API client id and client secret (If you don't have one, [get it here](https://code.google.com/apis/console/)).
+* Save it as `client_secrets.json`.
 * Now, if you run `python drive.py`, a browser window/tab will open for you to authenticate the script.
-* Once authentication is done, the script will start downloading your "My Drive". Refer the next section for more options.
+* Once authentication is done, the script will start downloading your *My Drive*. Refer the next section for more options.
 
 ## Options
 Following command line options are available.
