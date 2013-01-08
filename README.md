@@ -9,6 +9,11 @@ A python script to sync your google drive contents.
 * Logs all actions (optional)
 * Uses OAuth2 authentication and can remember authentication
 
+## Requirements
+* Google API Python library. To install run
+`pip install --upgrade google-api-python-client` or
+`easy_install --upgrade google-api-python-client`
+
 ## Setup
 * Edit `client_secrets_sample.json` and add your Google API client id and client secret (If you don't have one, [get it here](https://code.google.com/apis/console/)).
 * Save it as `client_secrets.json`.
