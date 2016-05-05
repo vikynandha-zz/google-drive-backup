@@ -147,7 +147,10 @@ def download_file( service, drive_file, dest_path ):
     file_location = dest_path + drive_file['title'].replace( '/', '_' )
 
     if is_google_doc(drive_file):
-        download_url = drive_file['exportLinks']['application/pdf']
+        try:
+            download_url = drive_file['exportLinks']['application/pdf']
+        except KeyError:
+            download_url = None
     else:
         download_url = drive_file['downloadUrl']
     if download_url:
