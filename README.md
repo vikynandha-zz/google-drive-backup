@@ -3,6 +3,8 @@ Google Drive Backup
 
 A python script to sync your google drive contents.
 
+:warning: This repository is not maintained anymore. Some of the [forks](https://github.com/vikynandha/google-drive-backup/network) might be more up-to-date.
+
 ## Features
 * You can Download your entire google drive or any given folder
 * Downloads a file only if it has been modified since last download
